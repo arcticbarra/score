@@ -1,0 +1,20 @@
+.btn {
+  background: rgb(241, 69, 61);
+}
+
+.btn:hover {
+  background: rgb(254, 152, 46);
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Francois One';
+}
+p {
+  font-size: 25px;
+  font-family: 'Francois One';
+}
+
+body {
+  background: rgb(227, 227, 227);
+}
