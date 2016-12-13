@@ -22,3 +22,8 @@ body {
 .winner {
   color: rgb(45, 163, 35);
 }
+
+#win {
+  color: rgb(45, 163, 35);
+  display: none;
+}

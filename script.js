@@ -9,6 +9,7 @@ var pointsp2 = document.querySelectorAll("span")[1];
 var playingto = document.querySelectorAll("span")[2];
 var input = document.querySelector("input");
 var gameover = false;
+var wintext = document.querySelector("#win");
 
   player1.addEventListener("click", function() {
     if (!gameover) {
@@ -17,6 +18,7 @@ var gameover = false;
       if (points1 === winner) {
         pointsp1.classList.add("winner");
         gameover = true;
+        wintext.style.display = "block";
       }
     }
   });
@@ -28,6 +30,7 @@ var gameover = false;
       if (points2 === winner) {
         pointsp2.classList.add("winner");
         gameover = true;
+        wintext.style.display = "block";
       }
     }
   });
@@ -43,6 +46,7 @@ var gameover = false;
     pointsp2.textContent = points2;
     pointsp1.classList.remove("winner");
     pointsp2.classList.remove("winner");
+    wintext.style.display = "none";
     gameover = false;
   }
 
