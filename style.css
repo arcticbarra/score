@@ -18,3 +18,7 @@ p {
 body {
   background: rgb(227, 227, 227);
 }
+
+.winner {
+  color: rgb(45, 163, 35);
+}
